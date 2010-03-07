@@ -2,6 +2,7 @@
 ;;  Dean Serenevy
 ;;    stolen from: /usr/share/emacs/21.3/leim/quail/latin-ltx.el
 
+(input-method t TeX)
 (title "TeX")
 
 (map
