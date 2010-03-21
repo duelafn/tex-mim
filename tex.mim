@@ -45,6 +45,12 @@
  ("\\QQQ" ?ℚ) ("\\RRR" ?ℝ) ("\\PPP" ?ℙ) ("\\NNN" ?ℕ)
  ("\\zip" ?¥) ("\\cent" ?¢)
  ("\\degF" ?℉) ("\\degC" ?℃)
+ ("\\bob" ?☺) ("\\antibob" ?☹) ("\\inversebob" ?☻)
+
+ ;; special/fun symbols (names should be descriptive and not misleading)
+ ("\\snowman" ?☃)
+ ("\\recycle" ?♻)
+ ("\\recycle1" ?♳)("\\recycle2" ?♴)("\\recycle3" ?♵)("\\recycle4" ?♶)("\\recycle5" ?♷)("\\recycle6" ?♸)("\\recycle7" ?♹)
 
 
  ;; Just latin-ltx.el (with some things commented/uncommented) from here down
