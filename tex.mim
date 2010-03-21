@@ -923,7 +923,7 @@
 ;;;  Probably not useful enough:
  ("\\Telefon" ?☎)			; there are other possibilities
  ("\\Radioactivity" ?☢)
- ("\Biohazard" ?☣)
+ ("\\Biohazard" ?☣)
  ("\\Male" ?♂)
  ("\\Female" ?♀)
  ("\\Lightning" ?☇)
@@ -936,7 +936,7 @@
  ("\\Pluto" ?♇)
  ("\\Sun" ?☉)
  ("\\Writinghand" ?✍)
- ("\\\\Yinyang" ?☯)
+ ("\\Yinyang" ?☯)
  ("\\Heart" ?♡)
  ("\\registered" ?®)
  ("\\currency" ?¤)
