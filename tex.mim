@@ -46,6 +46,7 @@
  ("\\zip" ?¥) ("\\cent" ?¢)
  ("\\degF" ?℉) ("\\degC" ?℃)
  ("\\bob" ?☺) ("\\antibob" ?☹) ("\\inversebob" ?☻)
+ ("\\coffee" ?☕)
 
  ;; special/fun symbols (names should be descriptive and not misleading)
  ("\\snowman" ?☃)
