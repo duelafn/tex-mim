@@ -44,7 +44,7 @@
  ("``" ?“) ("''" ?”)
  ("\\QQQ" ?ℚ) ("\\RRR" ?ℝ) ("\\PPP" ?ℙ) ("\\NNN" ?ℕ)
  ("\\zip" ?¥) ("\\cent" ?¢)
- ("\\degF" ?℉) ("\\degC" ?℃)
+ ("\\degF" ?℉) ("\\degC" ?℃) ("\\degree" ?°) ("\\degrees" ?°)
  ("\\bob" ?☺) ("\\antibob" ?☹) ("\\inversebob" ?☻)
  ("\\coffee" ?☕)
 
