@@ -52,6 +52,8 @@
  ("\\snowman" ?☃)
  ("\\recycle" ?♻)
  ("\\recycle1" ?♳)("\\recycle2" ?♴)("\\recycle3" ?♵)("\\recycle4" ?♶)("\\recycle5" ?♷)("\\recycle6" ?♸)("\\recycle7" ?♹)
+ ("\\die1" ?⚀)("\\die2" ?⚁)("\\die3" ?⚂)("\\die4" ?⚃)("\\die5" ?⚄)("\\die6" ?⚅)
+ ("\\checkbox" ?☐)("\\checkboxchecked" ?☑)("\\checkboxx" ?☒)
 
 
  ;; Just latin-ltx.el (with some things commented/uncommented) from here down
