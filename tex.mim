@@ -47,6 +47,8 @@
  ("\\degF" ?℉) ("\\degC" ?℃) ("\\degree" ?°) ("\\degrees" ?°)
  ("\\bob" ?☺) ("\\antibob" ?☹) ("\\inversebob" ?☻)
  ("\\coffee" ?☕)
+ ("\\fontsize" ?); Clever symbol which displays the font size. Private use area, DejaVu font only
+                  ; https://bugs.launchpad.net/ubuntu-font-family/+bug/615787
 
  ;; special/fun symbols (names should be descriptive and not misleading)
  ("\\snowman" ?☃)
