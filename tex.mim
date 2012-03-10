@@ -58,6 +58,9 @@
  ("\\die1" ?⚀)("\\die2" ?⚁)("\\die3" ?⚂)("\\die4" ?⚃)("\\die5" ?⚄)("\\die6" ?⚅)
  ("\\checkbox" ?☐)("\\checkboxchecked" ?☑)("\\checkboxx" ?☒)
 
+ ;; Some things missing?
+ ("\\dots" ?…) ("\\ellipsis" ?…)
+
 
  ;; Just latin-ltx.el (with some things commented/uncommented) from here down
  ("!`" ?¡)
