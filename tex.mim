@@ -40,9 +40,14 @@
 (map
  (trans
  ;; some more controvercial ones; If you don't like them, fork!
- ("<<" ?«) (">>" ?»)
- ("``" ?“) ("''" ?”)
- ("\\QQQ" ?ℚ) ("\\RRR" ?ℝ) ("\\PPP" ?ℙ) ("\\NNN" ?ℕ)
+ ("<<" ?«)  ; 0x00AB « LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+ (">>" ?»)  ; 0x00BB » RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+ ("``" ?“)  ; 0x201C “ LEFT DOUBLE QUOTATION MARK
+ ("''" ?”)  ; 0x201D ” RIGHT DOUBLE QUOTATION MARK
+ ("\\QQQ" ?ℚ)  ; 0x211A ℚ DOUBLE-STRUCK CAPITAL Q
+ ("\\RRR" ?ℝ)
+ ("\\PPP" ?ℙ)
+ ("\\NNN" ?ℕ)
  ("\\zip" ?¥) ("\\cent" ?¢)
  ("\\degF" ?℉) ("\\degC" ?℃) ("\\degree" ?°) ("\\degrees" ?°)
  ("\\bob" ?☺) ("\\antibob" ?☹) ("\\inversebob" ?☻)
@@ -62,7 +67,6 @@
  ("\\dots" ?…) ("\\ellipsis" ?…)
 
 
- ;; Just latin-ltx.el (with some things commented/uncommented) from here down
  ("!`" ?¡)
  ("\\pounds" ?£) ;; ("{\\pounds}" ?£)
  ("\\S" ?§) ;; ("{\\S}" ?§)
@@ -384,21 +388,39 @@
  ("^{SM}" ?℠)
  ("^{TEL}" ?℡)
  ("^{TM}" ?™)
- ("_(" ?₍)
- ("_)" ?₎)
- ("_+" ?₊)
- ("_-" ?₋)
- ("_0" ?₀)
- ("_1" ?₁)
- ("_2" ?₂)
- ("_3" ?₃)
- ("_4" ?₄)
- ("_5" ?₅)
- ("_6" ?₆)
- ("_7" ?₇)
- ("_8" ?₈)
- ("_9" ?₉)
- ("_=" ?₌)
+ ("_(" ?₍)  ; 0x208D ₍ SUBSCRIPT LEFT PARENTHESIS
+ ("_)" ?₎)  ; 0x208E ₎ SUBSCRIPT RIGHT PARENTHESIS
+ ("_+" ?₊)  ; 0x208A ₊ SUBSCRIPT PLUS SIGN
+ ("_-" ?₋)  ; 0x208B ₋ SUBSCRIPT MINUS
+ ("_0" ?₀)  ; 0x2080 ₀ SUBSCRIPT ZERO
+ ("_1" ?₁)  ; 0x2081 ₁ SUBSCRIPT ONE
+ ("_2" ?₂)  ; 0x2082 ₂ SUBSCRIPT TWO
+ ("_3" ?₃)  ; 0x2083 ₃ SUBSCRIPT THREE
+ ("_4" ?₄)  ; 0x2084 ₄ SUBSCRIPT FOUR
+ ("_5" ?₅)  ; 0x2085 ₅ SUBSCRIPT FIVE
+ ("_6" ?₆)  ; 0x2086 ₆ SUBSCRIPT SIX
+ ("_7" ?₇)  ; 0x2087 ₇ SUBSCRIPT SEVEN
+ ("_8" ?₈)  ; 0x2088 ₈ SUBSCRIPT EIGHT
+ ("_9" ?₉)  ; 0x2089 ₉ SUBSCRIPT NINE
+ ("_=" ?₌)  ; 0x208C ₌ SUBSCRIPT EQUALS SIGN
+ ("_a" ?ₐ)  ; 0x2090 ₐ LATIN SUBSCRIPT SMALL LETTER A
+ ("_e" ?ₑ)  ; 0x2091 ₑ LATIN SUBSCRIPT SMALL LETTER E
+ ("_h" ?ₕ)  ; 0x2095 ₕ LATIN SUBSCRIPT SMALL LETTER H
+ ("_i" ?ᵢ)  ; 0x1D62 ᵢ LATIN SUBSCRIPT SMALL LETTER I
+ ("_j" ?ⱼ)  ; 0x2C7C ⱼ LATIN SUBSCRIPT SMALL LETTER J
+ ("_k" ?ₖ)  ; 0x2096 ₖ LATIN SUBSCRIPT SMALL LETTER K
+ ("_l" ?ₗ)  ; 0x2097 ₗ LATIN SUBSCRIPT SMALL LETTER L
+ ("_m" ?ₘ)  ; 0x2098 ₘ LATIN SUBSCRIPT SMALL LETTER M
+ ("_n" ?ₙ)  ; 0x2099 ₙ LATIN SUBSCRIPT SMALL LETTER N
+ ("_o" ?ₒ)  ; 0x2092 ₒ LATIN SUBSCRIPT SMALL LETTER O
+ ("_p" ?ₚ)  ; 0x209A ₚ LATIN SUBSCRIPT SMALL LETTER P
+ ("_r" ?ᵣ)  ; 0x1D63 ᵣ LATIN SUBSCRIPT SMALL LETTER R
+ ("_s" ?ₛ)  ; 0x209B ₛ LATIN SUBSCRIPT SMALL LETTER S
+ ("_t" ?ₜ)  ; 0x209C ₜ LATIN SUBSCRIPT SMALL LETTER T
+ ("_u" ?ᵤ)  ; 0x1D64 ᵤ LATIN SUBSCRIPT SMALL LETTER U
+ ("_v" ?ᵥ)  ; 0x1D65 ᵥ LATIN SUBSCRIPT SMALL LETTER V
+ ("_x" ?ₓ)  ; 0x2093 ₓ LATIN SUBSCRIPT SMALL LETTER X
+
 
  ("\\~" ?̃)
  ("\\~E" ?Ẽ)
