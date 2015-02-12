@@ -1,16 +1,12 @@
 
-SCIM mim file for for TeX-style input - derived from the latin-ltx.el Quail
+libm17n mim file for for TeX-style input - derived from the latin-ltx.el Quail
 package by TAKAHASHI Naoto <ntakahas@m17n.org> and Dave Love <fx@gnu.org>.
 
 Install by copying tex.mim to /usr/share/m17n/
 
 Choose an input method framework that will supports the M17N Input Method
-Engine (for instance SCIM)
-
-im-switch -l
-im-switch -s scim
-
-Log out and then back in and enjoy your new input method!
+Engine (ibus, scim, uim). After a reboot, the tex input method should be
+available in your chosen input engine.
 
 
 
