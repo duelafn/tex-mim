@@ -35,6 +35,11 @@
 
 
 (input-method t TeX)
+
+(description "Text and (La)TeX backslash commands input method
+(does not interfere with normal text input).
+")
+
 (title "TeX")
 
 (map
