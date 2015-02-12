@@ -826,6 +826,7 @@
  ("\\prod" ?∏)
  ("\\propto" ?∝)
  ("\\psi" ?ψ)
+ ("\\qed" ?∎)
  ("\\quad" ? )
  ("\\rangle" ?〉)
  ("\\rbrace" ?})
@@ -942,7 +943,10 @@
  ("\\Bbb{Z}" ?ℤ)
  ("--" ?–)
  ("---" ?—)
-;; ("~" ? )				; nbsp
+ ;; We used to use ~ for NBSP but that's inconvenient and may even look like
+ ;; a bug where the user finds his ~ key doesn't insert a ~ any more.
+ ("\\ " ? )
+ ("\\\\" ?\\)
  ("\\mu" ?μ)
  ("\\rho" ?ρ)
  ("\\mathscr{I}" ?ℐ)			; moment of inertia
