@@ -3,6 +3,7 @@ libm17n mim file for for TeX-style input - derived from the latin-ltx.el Quail
 package by TAKAHASHI Naoto <ntakahas@m17n.org> and Dave Love <fx@gnu.org>.
 
 Install by copying tex.mim to /usr/share/m17n/
+Optionally, copy   TeX.png to /usr/share/m17n/icons/
 
 Choose an input method framework that will supports the M17N Input Method
 Engine (ibus, scim, uim). After a reboot, the tex input method should be
