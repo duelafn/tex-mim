@@ -1,4 +1,7 @@
 
+tex.mim
+=======
+
 libm17n mim file for for TeX-style input - derived from the latin-ltx.el Quail
 package by TAKAHASHI Naoto <ntakahas@m17n.org> and Dave Love <fx@gnu.org>.
 
@@ -10,8 +13,21 @@ Engine (ibus, scim, uim). After a reboot, the tex input method should be
 available in your chosen input engine.
 
 
+XCompose Alternative
+====================
 
-Note:
+Also included is a simple script which will convert the mim file to an
+XComponse configuration file in case you would rather use your compose key.
+
+    mim2xcompose.pl tex.mim >> ~/.XCompose
+
+If you feel that the leading backslash for the tex commands are redundant,
+you can pass the --strip-backspash option to the script and they will be
+excluded.
+
+
+imelist Compile Dependency
+==========================
 
 Debian package required to compile imelist executable:
 
