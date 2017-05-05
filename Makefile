@@ -1,5 +1,5 @@
 
-install: tex.png TeX.mim
+install: TeX.png tex.mim
 	cp -f tex.mim /usr/share/m17n/
 	cp -f TeX.png /usr/share/m17n/icons/
 
