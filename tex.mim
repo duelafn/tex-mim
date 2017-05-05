@@ -70,7 +70,7 @@
 
  ;; Some things missing?
  ("\\dots" ?…) ("\\ellipsis" ?…)
-
+ ("\\bar" 773) ; 0x0305 COMBINING OVERLINE  Unicode 1.0 name: NON-SPACING OVERSCORE
 
  ("!`" ?¡)
  ("\\pounds" ?£) ;; ("{\\pounds}" ?£)
