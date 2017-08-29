@@ -56,17 +56,18 @@
  ("\\zip" ?¥) ("\\cent" ?¢)
  ("\\degF" ?℉) ("\\degC" ?℃) ("\\degree" ?°) ("\\degrees" ?°)
  ("\\bob" ?☺) ("\\antibob" ?☹) ("\\inversebob" ?☻)
- ("\\coffee" ?☕)
  ("\\fontsize" ?); Clever symbol which displays the font size. Private use area, DejaVu font only
                   ; https://bugs.launchpad.net/ubuntu-font-family/+bug/615787
  ("\\tux" ?)     ; TuX in the Linux Libertine Font
 
  ;; special/fun symbols (names should be descriptive and not misleading)
- ("\\snowman" ?☃)
+ ("\\atom" ?⚛)
+ ("\\checkbox" ?☐)("\\checkboxchecked" ?☑)("\\checkboxx" ?☒)
+ ("\\coffee" ?☕)
+ ("\\die1" ?⚀)("\\die2" ?⚁)("\\die3" ?⚂)("\\die4" ?⚃)("\\die5" ?⚄)("\\die6" ?⚅)
  ("\\recycle" ?♻)
  ("\\recycle1" ?♳)("\\recycle2" ?♴)("\\recycle3" ?♵)("\\recycle4" ?♶)("\\recycle5" ?♷)("\\recycle6" ?♸)("\\recycle7" ?♹)
- ("\\die1" ?⚀)("\\die2" ?⚁)("\\die3" ?⚂)("\\die4" ?⚃)("\\die5" ?⚄)("\\die6" ?⚅)
- ("\\checkbox" ?☐)("\\checkboxchecked" ?☑)("\\checkboxx" ?☒)
+ ("\\snowman" ?☃)
 
  ;; Some things missing?
  ("\\dots" ?…) ("\\ellipsis" ?…)
