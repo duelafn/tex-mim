@@ -952,9 +952,8 @@
  ("\\Bbb{Z}" ?ℤ)
  ("--" ?–)
  ("---" ?—)
- ;; We used to use ~ for NBSP but that's inconvenient and may even look like
- ;; a bug where the user finds his ~ key doesn't insert a ~ any more.
- ("\\ " ? )
+ ;; We used to use ~ for NBSP but that's inconvenient, use \ instead
+ ("\\ " ? )
  ("\\\\" ?\\)
  ("\\mu" ?μ)
  ("\\rho" ?ρ)
